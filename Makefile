@@ -6,3 +6,6 @@ make migrations:
 
 make migrate:
 	python manage.py migrate
+
+make repl:
+	python manage.py shell
